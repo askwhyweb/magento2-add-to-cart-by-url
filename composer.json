@@ -1,0 +1,22 @@
+{
+    "name": "orvisoft/module-addtocartbyurl",
+    "description": "This module will help create Add to Cart by URL (usable with Facebook Stores)",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "email": "farhan@orvisoft.com",
+            "name": "Farhan Islam"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "OrviSoft\\AddToCartByUrl\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
